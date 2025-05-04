@@ -10,7 +10,7 @@ function Subject({ subject }) {
 
   function getSubjectContent(subj) {
     switch (subj) {
-      case "OOP":
+      case "Обектно-ориентирано програмиране":
         return(
             <div>
                 <ul>
@@ -23,11 +23,34 @@ function Subject({ subject }) {
                 </ul>
             </div>
         );
-      case "OS":
-        return <p>Skeleta</p>;
-      case "SEM":
-        return <p>Bate zabravi</p>;
-      case "WEB":
+      case "Операционни системи":
+        return(
+          <div>
+            <label>
+              <a href="https://os.qtrp.org/os-problems.pdf">Сборник</a>
+            </label>
+          </div>
+        )
+      case "Статистика и емпирични методи":
+        return(
+          <div>
+            <ul>
+              <li>
+                <a href="https://github.com/andy489/Empirical_Methods_and_Statistics" target="_blank">Гитхъб на Анди</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=PC1DXtAdI6c&list=PL7xl2HXTYasImKZoBC4aNTU4U3NvLpRDS" target="_blank">СЕМ упражнения - Мартин Минчев 2021</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=rYE-2qCjlB0&list=PL7xl2HXTYasLBgU-vltJCS9ufpcozYB2-" target="_blank">СЕМ упражнения - Мартин Минчев 2020</a>
+              </li>
+              <li>
+                <a href="https://unisofiafaculty-my.sharepoint.com/personal/mjminchev_office365faculty_uni-sofia_bg/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmjminchev%5Foffice365faculty%5Funi%2Dsofia%5Fbg%2FDocuments%2FTeaching%2FVIS%2C%20SEM%2F%D0%A1%D0%95%D0%9C%20%D0%92%D0%B8%D0%A1%20shared&ga=1" target="_blank">Стари домашни,контролни и изпити</a>
+              </li>
+            </ul>
+          </div>
+        );
+      case "Web програмиране":
         return(
             <ul>
                 <li>Javascript домашно: 11.05</li>
