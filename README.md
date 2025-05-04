@@ -1,0 +1,2 @@
+# fmiJourney
+Beginner React project 
