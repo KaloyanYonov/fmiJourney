@@ -1,12 +1,5 @@
-import { useState } from 'react'
 import './App.css'
-import Web from './Web' 
-import Git from './Git'
-import OOP from './OOP'
-import OS from './OS'
-import Strawberry from './Strawberry'
-import Blockchain from './Blockchain'
-import SEM from './SEM'
+import Subject from './Subject'
 
 
 function App() {
@@ -14,13 +7,15 @@ function App() {
   return (
     <>
       <h2 style={{color : "yellow"}}>My remaining FMI journey</h2>
-      <OOP/>
-      <OS/>
-      <SEM/>
-      <Web/>
-      <Git/>
-      <Blockchain/>
-      <Strawberry/>
+      <Subject subject={"OOP"}/>
+      <Subject subject={"OS"}/>
+      <Subject subject={"SEM"}/>
+      <Subject subject={"WEB"}/>
+      <Subject subject={"Git"}/>
+      <Subject subject={"Strawberry Prolog"}/>
+      <Subject subject={"Blockchain"}/>
+
+
 
     </>
   )
