@@ -82,7 +82,26 @@ function Subject({ subject }) {
                 <p>Проект на тема по твой избор.Предай до края на Май месец за да не се занимаваш през сесията</p>
             </div>
         );
-      
+        case "FrontEnd":
+          return(
+            <div>
+              <ol>
+                <li>
+                  <a href="https://www.youtube.com/watch?v=1PnVor36_40&list=PLZlA0Gpn_vH9D0J0Mtp6lIiD_8046k3si" target="_blank">CSS</a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/watch?v=YszONjKpgg4&list=PLZlA0Gpn_vH8mpXIUHjWoMAAgoCEinL0R" target="_blank">Even more CSS</a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/watch?v=YeFzkC2awTM&list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6" target="_blank">Javascript</a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/watch?v=1wZoGFF_oi4&list=PLZlA0Gpn_vH_NT5zPVp18nGe_W9LqBDQK" target="_blank">React</a>
+                </li>
+              </ol>
+
+            </div>
+          )
     }
   }
 

@@ -14,6 +14,7 @@ function App() {
       <Subject subject={"Git"}/>
       <Subject subject={"Strawberry Prolog"}/>
       <Subject subject={"Blockchain"}/>
+      <Subject subject={"FrontEnd"}/>
 
 
 
